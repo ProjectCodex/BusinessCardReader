@@ -11,11 +11,11 @@
 
 class TextParser
 {
-  String _text;
+  String text;
 
-  TextParser(String text)
+  TextParser(String textInput)
   {
-    _text = text;
+    text = textInput;
   }
 
     String parseEmail()
@@ -26,6 +26,6 @@ class TextParser
         multiLine: false,
         );
 
-      return regExp.stringMatch(_text);
+      return regExp.stringMatch(text);
     }
 }
