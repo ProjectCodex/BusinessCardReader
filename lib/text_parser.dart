@@ -1,9 +1,11 @@
 // TextParser class will contain methods for parsing out desired data from OCR
 // text input.
 //
-// -Email
-// -Name
-// -Phone number
+// - Email
+// - Name
+// - Phone number
+// - Title
+// - Company
 //
 // JT
 

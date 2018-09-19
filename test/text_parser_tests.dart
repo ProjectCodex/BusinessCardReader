@@ -1,3 +1,6 @@
+// Unit Tests for the textParser methods will be written here
+// JT
+
 import 'package:flutter_test/flutter_test.dart';
 import 'package:business_card_reader/text_parser.dart';
 
